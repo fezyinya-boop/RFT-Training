@@ -1,0 +1,27 @@
+# Syllogimous-v3 Flutter app — fully integrated with:
+# - Sound effects (assets included)
+# - Theme selector (Light/Dark/High-Contrast)
+# - Practice analytics
+# - XP system, badges, streaks
+# - Firebase Auth + Firestore cloud save and real-time sync
+
+name: syllogimous
+description: Brain training app with RFT
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^2.1.1
+  firebase_core: ^2.21.1
+  firebase_auth: ^4.7.2
+  cloud_firestore: ^5.14.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/correct.mp3
+    - assets/sounds/wrong.mp3
