@@ -5,20 +5,20 @@
 # - XP system, badges, streaks
 # - Firebase Auth + Firestore cloud save and real-time sync
 
-name: syllogimous
+,name: syllogimous
 description: Brain training app with RFT
 publish_to: 'none'
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: '>=3.3.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  audioplayers: ^2.1.1
-  firebase_core: ^2.21.1
-  firebase_auth: ^4.7.2
-  cloud_firestore: ^5.14.0
+  audioplayers: ^6.5.1
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  cloud_firestore: ^6.1.0
 
 flutter:
   uses-material-design: true
